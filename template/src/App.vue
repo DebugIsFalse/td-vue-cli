@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>|
+      <router-link to="/vuex">vuex使用</router-link>
     </div>
     <router-view/>
   </div>
@@ -10,7 +10,7 @@
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -23,6 +23,8 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  font-size: 16px;
+  margin: 0 10px;
 }
 
 #nav a.router-link-exact-active {
