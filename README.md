@@ -1,5 +1,4 @@
 # 使用vue-cli创建项目模板脚手架
-## 安装命令
 ### 安装vue-cli3脚手架
 ```javascript
 npm install -g vue-cli
