@@ -7,12 +7,17 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
+import { REDUCE_TIMING } from "@/vuex/index/mutationTypes";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
     HelloWorld
+  },
+  mounted() {
+    this.$store.commit(REDUCE_TIMING, { count: 1 });
+    console.log(this.$store, "----this.$state");
   }
-}
+};
 </script>
