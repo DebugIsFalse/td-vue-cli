@@ -4,7 +4,7 @@ import router from './router/router'
 
 Vue.config.productionTip = false
 
-const test = 2;
+const test = 222;
 test = 334;
 
 
