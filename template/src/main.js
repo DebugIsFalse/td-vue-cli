@@ -5,7 +5,7 @@ import router from './router/router'
 Vue.config.productionTip = false
 
 const a = 1;
-a = 2;
+a = 3;
 
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
