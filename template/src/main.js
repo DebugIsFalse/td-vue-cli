@@ -3,8 +3,6 @@ import App from './App.vue'
 import router from './router/router'
 
 Vue.config.productionTip = false
-const a = 1;
-a =222;
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 Vue.use(iView);
