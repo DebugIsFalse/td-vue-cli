@@ -4,8 +4,8 @@ import router from './router/router'
 
 Vue.config.productionTip = false
 
-const a  = 1;
-a =3;
+const test = 2;
+test = 334;
 
 
 import iView from 'iview';
