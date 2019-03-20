@@ -43,38 +43,38 @@ import {
     ACTION_REDUCE_TIMING
 } from "@/vuex/index/mutationTypes";
 export default {
-  data() {
-      return {
-          count : 1
-      }
-  },
-  computed:{
-      updateAccount(){
-          const { count } = this.$store.state.indexModule;
-          return count;
-      }
-  },
-  methods: {
-    mutationsReduceCount() {
-      //mutation同步提交vuex
-      this.$store.commit(REDUCE_TIMING, { count: this.count });
+    data() {
+        return {
+            count : 1
+        }
     },
-    actionsReduceCount() {
-      //actions异步提交vuex
-      this.$store.dispatch(ACTION_REDUCE_TIMING, { count: this.count }).then(() => {
-          console.log('action----to do---reduce')
-      });
+    computed:{
+        updateAccount(){
+            const { count } = this.$store.state.indexModule;
+            return count;
+        }
     },
-    mutationsAddCount() {
-      //mutation同步提交vuex
-      this.$store.commit(ADD_TIMING, { count: this.count });
-    },
-    actionsAddCount() {
-      //actions异步提交vuex
-      this.$store.dispatch(ACTION_ADD_TIMING, { count: this.count }).then(() => {
-          console.log('action----to do---add')
-      });
+    methods: {
+        mutationsReduceCount() {
+            //mutation同步提交vuex
+            this.$store.commit(REDUCE_TIMING, { count: this.count });
+        },
+        actionsReduceCount() {
+            //actions异步提交vuex
+            this.$store.dispatch(ACTION_REDUCE_TIMING, { count: this.count }).then(() => {
+                console.log('action----to do---reduce')
+            });
+        },
+        mutationsAddCount() {
+            //mutation同步提交vuex
+            this.$store.commit(ADD_TIMING, { count: this.count });
+        },
+        actionsAddCount() {
+            //actions异步提交vuex
+            this.$store.dispatch(ACTION_ADD_TIMING, { count: this.count }).then(() => {
+                console.log('action----to do---add')
+            });
+        }
     }
-  }
 };
 </script>
