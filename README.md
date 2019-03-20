@@ -8,7 +8,8 @@ npm install -g @vue/cli-service-global
 ```javascript
 vue init DebugIsFalse/td-vue-cli xxx
 ```
-### 进入xxx目录，下载依赖
-```javascript
+### 进入xxx目录，创建.git文件目录并下载依赖
+```
+git init
 npm install
 ```
