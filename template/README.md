@@ -1,5 +1,10 @@
 # td-vue-cli
 
+## create emputy .git
+```
+git init
+```
+
 ## Project setup
 ```
 npm install
