@@ -5,6 +5,9 @@ import store from './vuex/store'
 
 Vue.config.productionTip = false
 
+const a = 1;
+a = 222;
+
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 Vue.use(iView);
