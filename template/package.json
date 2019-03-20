@@ -42,8 +42,10 @@
       "parser": "babel-eslint"
     }
   },
-  "gitHooks": {
-    "pre-commit": "npm run lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
   },
   "lint-staged": {
     "**/*.js": "eslint --ext .js",
