@@ -8,6 +8,10 @@
         <a href="//router.vuejs.org" target="_blank">vue-router</a>
         <a href="//www.iviewui.com" target="_blank">iView</a>
     </div>
+    <div class="index-list">
+        <a href="https://github.com/js-cookie/js-cookie#readme" target="_blank">js-cookie</a>
+        <a href="https://github.com/axios/axios" target="_blank">axios</a>
+    </div>
   </div>
 </template>
 
