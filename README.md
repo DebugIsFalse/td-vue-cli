@@ -10,6 +10,7 @@ vue init DebugIsFalse/vue-cli-template xxx
 ```
 ### 进入xxx目录，创建.git文件目录并下载依赖
 ```
+//如果已创建了git项目不需要输入 git init;
 git init
 npm install
 ```
